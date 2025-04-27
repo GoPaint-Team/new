@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GoPaint - Official Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #d3d3d3;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    header {
+  
+    }
+    header img {
+      width: 100px;
+      border-radius: 50%;
+    }
+    h1 {
+      margin-top: 10px;
+      font-size: 2.5rem;
+    }
+    .features {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin: 40px 0;
+      flex-wrap: wrap;
+    }
+    .feature-box {
+      background-color: white;
+      border-radius: 50%;
+      width: 200px;
+      height: 200px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      font-size: 1.2rem;
+      padding: 20px;
+      text-align: center;
+    }
+    .downloads {
+      margin: 40px 0;
+    }
+    .download-button {
+      display: inline-block;
+      margin: 10px;
+      padding: 15px 25px;
+      background-color: #007bff;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      transition: background-color 0.3s;
+    }
+    .download-button:hover {
+      background-color: #0056b3;
+    }
+    .instructions {
+      margin: 40px;
+      text-align: left;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="https://github.com/GoPaint-Team/GoPaint1.1/blob/main/src/dist/icon.png?raw=true" alt="GoPaint Icon">
+  <h1>Welcome to GoPaint</h1>
+  <p>Lightweight, Open Source, and Practical Painting Software</p>
+</header>
+
+<section class="features">
+  <div class="feature-box">Lightweight</div>
+  <div class="feature-box">Open Source</div>
+  <div class="feature-box">Cross-Platform</div>
+</section>
+
+<section class="downloads">
+  <h2>Download GoPaint</h2>
+  <a class="download-button" href="https://github.com/GoPaint-Team/GoPaint1.1/releases/download/1.1/GoPaint1.1.exe" download>Download for Windows</a>
+  <a class="download-button" href="https://github.com/GoPaint-Team/GoPaint1.1/releases/download/1.1/GoPaint1.1.Linux.tar.xz.zip" download>Download for Linux</a>
+</section>
+
+<section class="instructions">
+  <h2>Linux Installation Instructions</h2>
+  <p>After downloading, extract the archive.</p>
+  <p>Then, move the extracted folder into your <code>/usr/local/bin</code> directory using:</p>
+  <pre><code>sudo mv [Extracted Folder] /usr/local/bin/</code></pre>
+  <p>To uninstall, simply delete the directory:</p>
+  <pre><code>sudo rm -r /usr/local/bin/[Extracted Folder]</code></pre>
+  <p><strong>Note:</strong> Replace <code>[Extracted Folder]</code> with the name of the folder you extracted.</p>
+</section>
+
+</body>
+</html>
